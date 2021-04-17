@@ -62,3 +62,24 @@
   transition: 0.3s;
   cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .four04-h1 {
+    font-size: 120px;
+    top: -150px;
+  }
+
+  .four-p {
+    width: 200px;
+  }
+
+  .four-h3 {
+    width: 200px;
+  }
+}
+@media (max-height: 500px) {
+  .four04-h1 {
+    font-size: 120px;
+    top: -50px;
+  }
+}
