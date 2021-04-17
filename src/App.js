@@ -52,7 +52,7 @@ function App() {
         <BrowserRouter>
           <ScrollToTop>
             <Switch>
-              <Route path="/" component={Home} exact />
+              <Route exact path="/GuitarWorld" component={Home} />
               <Route path="/gibson/" component={Gibson} />
               <Route path="/fender/" component={Fender} />
               <Route path="/epiphone/" component={Epiphone} />
