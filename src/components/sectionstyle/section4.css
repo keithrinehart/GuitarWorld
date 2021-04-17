@@ -1,0 +1,28 @@
+.section-4-container-img {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url(/src//img/fender-bkg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0 -0px 20px rgba(48, 47, 47, 0.462));
+  border: 2px solid rgb(240, 91, 22);
+  z-index: 199;
+}
+
+.section-4-bkg-image {
+  background-image: url(/src//img/fender-logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20vh;
+  filter: drop-shadow(5px 10px 5px rgba(34, 33, 33, 0.801));
+  z-index: 100;
+}
+@media (max-width: 400px) {
+  .section-4-container-img {
+    overflow: hidden;
+  }
+}

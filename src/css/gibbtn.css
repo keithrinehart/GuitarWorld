@@ -1,0 +1,337 @@
+.gibInfo {
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(240, 91, 22, 0.918);
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-family: "Lexend", sans-serif;
+  top: -20px;
+  left: -60px;
+  z-index: 100;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.31);
+  opacity: 0;
+  animation: card 500ms linear forwards, none;
+}
+
+@keyframes card {
+  0% {
+    left: -200px;
+    opacity: 0;
+  }
+  100% {
+    left: -60px;
+    opacity: 1;
+  }
+}
+
+.gibInfo-row2 {
+  top: -50px;
+}
+
+.gib-info-h3 {
+  position: relative;
+  font-size: 35px;
+  top: -20px;
+  padding: 10px 0px;
+}
+
+.gib-info-p {
+  position: relative;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 23px;
+}
+
+@media (max-width: 1324px) {
+  .gibInfo {
+    height: 600px;
+    width: 400px;
+    top: -50px;
+    left: -15px;
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -15px;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1070px) {
+  .gibInfo {
+    height: 500px;
+    width: 400px;
+    top: -110px;
+    left: -50px;
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -50px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 1014px) {
+  .gibInfo {
+    height: 500px;
+    width: 400px;
+    top: -100px;
+    left: -40px;
+    padding: 0 45px;
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -40px;
+      opacity: 1;
+    }
+  }
+  .gib-info-p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 924px) {
+  .gibInfo {
+    height: 500px;
+    width: 280px;
+    top: -70px;
+    left: -15px;
+    padding: 0 0;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -15px;
+      opacity: 1;
+    }
+  }
+  .gib-info-h3 {
+    position: relative;
+    font-size: 25px;
+    top: -20px;
+    padding: 10px 0px;
+  }
+  .gib-info-p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 924px) {
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: 10px;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 892px) {
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: 10px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 880px) {
+  .gibInfo {
+    width: 240px;
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: 25px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 874px) {
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: 25px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 824px) {
+  .gibInfo {
+    height: 450px;
+    width: 250px;
+    top: -70px;
+    left: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: 20px;
+      opacity: 1;
+    }
+  }
+  .gib-info-h3 {
+    top: 0px;
+  }
+}
+@media (max-width: 772px) {
+  .gibInfo {
+    height: 480px;
+    width: 500px;
+    top: -70px;
+    left: -100px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -100px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 648px) {
+  .gibInfo {
+    height: 480px;
+    width: 500px;
+    top: -80px;
+    left: -120px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      display: flex;
+      justify-content: center;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 564px) {
+  .gibInfo {
+    height: 480px;
+    width: 500px;
+    top: -80px;
+    left: -125px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -100px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 488px) {
+  .gibInfo {
+    height: 480px;
+    width: 400px;
+    top: -80px;
+    left: -50px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      display: flex;
+      justify-content: center;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 410px) {
+  .gibInfo {
+    height: 480px;
+    width: 380px;
+    top: -80px;
+    left: -65px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -45px;
+      opacity: 1;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .gibInfo {
+    height: 480px;
+    width: 300px;
+    top: -80px;
+    left: -25px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    min-width: 300px;
+  }
+  @keyframes card {
+    0% {
+      left: -200px;
+      opacity: 0;
+    }
+    100% {
+      left: -0px;
+      opacity: 1;
+    }
+  }
+}

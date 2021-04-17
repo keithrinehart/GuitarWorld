@@ -1,0 +1,254 @@
+.section11-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.21) inset;
+  align-items: center;
+  z-index: 100;
+  font-family: "Lexend", sans-serif;
+  z-index: 119;
+}
+
+.section11-p {
+  position: relative;
+  width: 500px;
+  font-size: 16px;
+  text-align: left;
+  text-justify: distribute;
+  letter-spacing: 2px;
+  line-height: 25px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.section11-btn {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(240, 91, 22);
+  outline: none;
+  border: 2px solid rgba(51, 51, 51, 0);
+  z-index: 12;
+}
+
+.section11-btn:hover {
+  color: rgb(240, 91, 22);
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(240, 91, 22);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ibanez-img {
+  position: relative;
+  width: 330px;
+  top: 0px;
+  left: 80px;
+  transform: rotate(5deg);
+  filter: drop-shadow(90px 0px 6px rgba(51, 51, 51, 0.229));
+  z-index: 11;
+}
+
+.ibanezPicks {
+  position: relative;
+  width: 50px;
+  left: -25px;
+  top: 420px;
+  transform: rotate(20deg);
+}
+@media (max-width: 1050px) {
+  .section11-p {
+    left: 50px;
+  }
+
+  .section11-btn {
+    left: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .section11-p {
+    position: relative;
+    width: 400px;
+    left: 50px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+
+  .section11-btn {
+    left: 50px;
+  }
+
+  .ibanez-img {
+    width: 330px;
+    top: 0px;
+    left: 30px;
+    transform: rotate(5deg);
+  }
+
+  .ibanezPicks {
+    width: 50px;
+    left: -25px;
+    top: 420px;
+  }
+}
+@media (max-width: 804px) {
+  .section11-p {
+    position: relative;
+    width: 300px;
+    left: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .section11-btn {
+    left: 30px;
+  }
+
+  .ibanez-img {
+    width: 330px;
+    top: 0px;
+    left: 30px;
+    transform: rotate(5deg);
+  }
+
+  .ibanezPicks {
+    width: 50px;
+    left: -50px;
+    top: 420px;
+  }
+}
+@media (max-width: 729px) {
+  .section11-p {
+    left: 50px;
+    font-size: 16px;
+  }
+
+  .section11-btn {
+    left: 50px;
+  }
+}
+@media (max-width: 703px) {
+  .section11-p {
+    position: relative;
+    width: 300px;
+    left: 220px;
+    top: 50px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .section11-btn {
+    left: 220px;
+    top: 50px;
+  }
+
+  .ibanez-img {
+    width: 630px;
+    top: 600px;
+    left: 30px;
+    transform: rotate(-2deg);
+  }
+
+  .ibanezPicks {
+    width: 50px;
+    left: -50px;
+    top: 420px;
+  }
+}
+@media (max-width: 625px) {
+  .section11-p {
+    position: relative;
+    width: 250px;
+    left: 230px;
+    top: 50px;
+    font-size: 13px;
+    text-indent: 0px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
+
+  .section11-btn {
+    left: 215px;
+    top: 50px;
+  }
+
+  .ibanez-img {
+    width: 630px;
+    top: 620px;
+    left: 30px;
+    transform: rotate(-2deg);
+  }
+}
+@media (max-width: 482px) {
+  .section11-p {
+    width: 200px;
+    left: 240px;
+  }
+
+  .section11-btn {
+    left: 215px;
+  }
+
+  .ibanez-img {
+    width: 630px;
+  }
+}
+@media (max-width: 420px) {
+  .section11-p {
+    position: relative;
+    width: 180px;
+    left: 270px;
+    top: 50px;
+    font-size: 13px;
+    text-indent: 0px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
+
+  .section11-btn {
+    left: 255px;
+    top: 50px;
+  }
+
+  .ibanez-img {
+    width: 630px;
+    top: 620px;
+    left: 30px;
+    transform: rotate(-2deg);
+  }
+}
+@media (max-width: 378px) {
+  .section11-p {
+    position: relative;
+    width: 140px;
+    left: 220px;
+    top: 50px;
+    font-size: 13px;
+    text-indent: 0px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
+
+  .section11-btn {
+    left: 210px;
+    width: 120px;
+    top: 50px;
+  }
+
+  .ibanez-img {
+    width: 530px;
+    top: 500px;
+    left: 10px;
+    transform: rotate(-2deg);
+  }
+}

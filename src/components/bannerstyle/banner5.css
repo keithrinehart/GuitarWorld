@@ -1,0 +1,196 @@
+.banner5-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 580px;
+  left: -110px;
+  padding: 7px;
+  width: 450px;
+  background: rgb(255, 102, 0);
+  color: ivory;
+  font-family: "Lexend", sans-serif;
+  transform: rotate(-35deg);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.21);
+  z-index: -1;
+}
+
+.banner5-heading {
+  letter-spacing: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Lexend", sans-serif;
+}
+
+.banner5-line1 {
+  position: absolute;
+  width: 100%;
+  top: 2px;
+  height: 1.7px;
+  background: #fff;
+  filter: drop-shadow(0 4px 5px #fff);
+}
+
+.banner5-line2 {
+  position: absolute;
+  width: 100%;
+  top: 26px;
+  height: 1.7px;
+  background: #fff;
+  filter: drop-shadow(0 -3px 4px #fff);
+}
+@media (max-width: 830px) {
+  .banner5-wrap {
+    top: 580px;
+    left: -102px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 775px) {
+  .banner5-wrap {
+    top: 890px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 748px) {
+  .banner5-wrap {
+    top: 900px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 729px) {
+  .banner5-wrap {
+    top: 810px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 702px) {
+  .banner5-wrap {
+    top: 805px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 679px) {
+  .banner5-wrap {
+    top: 805px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 669px) {
+  .banner5-wrap {
+    top: 805px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 643px) {
+  .banner5-wrap {
+    top: 760px;
+    left: -120px;
+    width: 450px;
+  }
+}
+@media (max-width: 603px) {
+  .banner5-wrap {
+    top: 700px;
+    left: -122px;
+    width: 450px;
+  }
+}
+@media (max-width: 577px) {
+  .banner5-wrap {
+    top: 700px;
+    left: -122px;
+    width: 450px;
+  }
+}
+@media (max-width: 551px) {
+  .banner5-wrap {
+    top: 690px;
+    left: -112px;
+    width: 450px;
+  }
+}
+@media (max-width: 533px) {
+  .banner5-wrap {
+    top: 670px;
+    left: -112px;
+    width: 450px;
+  }
+}
+@media (max-width: 529px) {
+  .banner5-wrap {
+    top: 650px;
+    left: -112px;
+    width: 450px;
+  }
+}
+@media (max-width: 497px) {
+  .banner5-wrap {
+    top: 600px;
+    left: -120px;
+    width: 450px;
+  }
+}
+@media (max-width: 463px) {
+  .banner5-wrap {
+    top: 580px;
+    left: -120px;
+    width: 450px;
+  }
+}
+@media (max-width: 443px) {
+  .banner5-wrap {
+    top: 530px;
+    left: -110px;
+    width: 450px;
+  }
+}
+@media (max-width: 415px) {
+  .banner5-wrap {
+    top: 530px;
+    left: -110px;
+    width: 450px;
+  }
+}
+@media (max-width: 383px) {
+  .banner5-wrap {
+    top: 515px;
+    left: -110px;
+    width: 450px;
+  }
+}
+@media (max-width: 357px) {
+  .banner5-wrap {
+    top: 470px;
+    left: -110px;
+    width: 450px;
+  }
+}
+@media (max-width: 333px) {
+  .banner5-wrap {
+    top: 400px;
+    left: 0px;
+    width: 100%;
+    transform: rotate(0deg);
+  }
+  .banner5-heading {
+    font-size: 11px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    min-width: 125px;
+  }
+}
+@media (max-width: 312px) {
+  .banner5-wrap {
+    top: 380px;
+    left: 0px;
+    width: 100%;
+    transform: rotate(0deg);
+  }
+}

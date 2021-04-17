@@ -1,0 +1,43 @@
+.section10-img {
+  position: relative;
+  overflow: hidden;
+  background-image: url(/src//img/ibanez.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  filter: drop-shadow(0 -0px 20px rgba(48, 47, 47, 0.462));
+  border: 2px solid rgb(240, 91, 22);
+
+  z-index: 100;
+}
+.section-10-bkg-image {
+  position: relative;
+  bottom: 150px;
+  background-image: url(/src//img/ibanez-logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  top: -10px;
+  left: 400px;
+  height: 20vh;
+  filter: drop-shadow(2px 2px 8px rgb(191, 52, 226));
+  z-index: 100;
+}
+@media (max-width: 1115px) {
+  .section-10-bkg-image {
+    left: 300px;
+  }
+}
+@media (max-width: 886px) {
+  .section-10-bkg-image {
+    left: 200px;
+  }
+}
+@media (max-width: 569px) {
+  .section-10-bkg-image {
+    left: -150px;
+    top: 50px;
+  }
+}

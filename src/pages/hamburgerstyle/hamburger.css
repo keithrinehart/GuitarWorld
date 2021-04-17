@@ -1,0 +1,62 @@
+.menu-container {
+  position: fixed;
+  top: 5px;
+  left: 12px;
+  padding: 10px;
+  z-index: 200;
+  transition: 500ms ease-in-out;
+}
+
+.menu-container:hover {
+  cursor: pointer;
+}
+
+.menu-container:hover .line {
+  width: 24px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.inner-container {
+  position: relative;
+  height: 20px;
+  top: 20px;
+}
+
+.line {
+  position: relative;
+  border-radius: 30px;
+  width: 8px;
+  height: 2px;
+  background-color: rgb(240, 91, 22);
+  margin: 5px 0;
+  z-index: 11;
+  transition: 500ms ease-in-out;
+}
+
+.line2 {
+  position: relative;
+  border-radius: 30px;
+  width: 14px;
+  height: 2px;
+  background-color: rgb(240, 91, 22);
+  margin: 5px 0;
+  z-index: 11;
+}
+
+.line3 {
+  position: relative;
+  border-radius: 30px;
+  width: 24px;
+  height: 2px;
+  background-color: rgb(240, 91, 22);
+  margin: 5px 0;
+  z-index: 11;
+}
+
+@media (max-width: 416px) {
+  .menu-container {
+    top: 5px;
+    left: 2px;
+  }
+}

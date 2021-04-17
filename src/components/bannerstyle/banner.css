@@ -1,0 +1,138 @@
+.banner-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 480px;
+  left: -102px;
+  padding: 7px;
+  width: 450px;
+  background: rgb(255, 102, 0);
+  color: ivory;
+  font-family: "Lexend", sans-serif;
+  transform: rotate(-35deg);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.21);
+  z-index: -1;
+}
+
+.banner-heading {
+  letter-spacing: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Lexend", sans-serif;
+}
+
+.banner-line1 {
+  position: absolute;
+  width: 100%;
+  top: 2px;
+  height: 1.7px;
+  background: #fff;
+  filter: drop-shadow(0 4px 5px #fff);
+}
+
+.banner-line2 {
+  position: absolute;
+  width: 100%;
+  top: 26px;
+  height: 1.7px;
+  background: #fff;
+  filter: drop-shadow(0 -3px 4px #fff);
+}
+@media (max-width: 828px) {
+  .banner-wrap {
+    top: 500px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 775px) {
+  .banner-wrap {
+    top: 700px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 748px) {
+  .banner-wrap {
+    top: 690px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 714px) {
+  .banner-wrap {
+    top: 670px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 672px) {
+  .banner-wrap {
+    top: 640px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 622px) {
+  .banner-wrap {
+    top: 600px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 556px) {
+  .banner-wrap {
+    top: 550px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 506px) {
+  .banner-wrap {
+    top: 520px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 446px) {
+  .banner-wrap {
+    top: 480px;
+    left: -102px;
+    width: 450px;
+  }
+}
+@media (max-width: 424px) {
+  .banner-wrap {
+    transform: rotate(0deg);
+    top: 415px;
+    left: 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 416px) {
+  .banner-wrap {
+    top: 405px;
+  }
+}
+@media (max-width: 402px) {
+  .banner-wrap {
+    top: 388px;
+  }
+}
+
+@media (max-width: 378px) {
+  .banner-wrap {
+    top: 380px;
+  }
+}
+@media (max-width: 364px) {
+  .banner-wrap {
+    top: 375px;
+  }
+}
+@media (max-width: 356px) {
+  .banner-wrap {
+    top: 360px;
+    min-width: 220px;
+  }
+}

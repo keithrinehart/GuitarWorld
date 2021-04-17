@@ -1,0 +1,26 @@
+.section6-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url(/src//img/epiphone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  padding-top: 80px;
+  filter: drop-shadow(0 -0px 20px rgba(48, 47, 47, 0.462));
+  border: 2px solid rgb(240, 91, 22);
+  z-index: 199;
+}
+.section-6-bkg-image {
+  background-image: url(/src//img/epiphone-logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  filter: drop-shadow(3px 1px 1px rgb(255, 255, 255));
+  z-index: 100;
+}
