@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GuitarWorld/static/css/main.6a0334d5.chunk.css",
+    "main.css": "/GuitarWorld/static/css/main.258a1f95.chunk.css",
     "main.js": "/GuitarWorld/static/js/main.d115a7a5.chunk.js",
     "main.js.map": "/GuitarWorld/static/js/main.d115a7a5.chunk.js.map",
     "runtime-main.js": "/GuitarWorld/static/js/runtime-main.f0bddeb5.js",
@@ -8,7 +8,7 @@
     "static/js/2.b0cf917c.chunk.js": "/GuitarWorld/static/js/2.b0cf917c.chunk.js",
     "static/js/2.b0cf917c.chunk.js.map": "/GuitarWorld/static/js/2.b0cf917c.chunk.js.map",
     "index.html": "/GuitarWorld/index.html",
-    "static/css/main.6a0334d5.chunk.css.map": "/GuitarWorld/static/css/main.6a0334d5.chunk.css.map",
+    "static/css/main.258a1f95.chunk.css.map": "/GuitarWorld/static/css/main.258a1f95.chunk.css.map",
     "static/js/2.b0cf917c.chunk.js.LICENSE.txt": "/GuitarWorld/static/js/2.b0cf917c.chunk.js.LICENSE.txt",
     "static/media/404.css": "/GuitarWorld/static/media/404.ffcd0063.jpg",
     "static/media/section2.css": "/GuitarWorld/static/media/gibson-logo.9f02632d.png",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.f0bddeb5.js",
     "static/js/2.b0cf917c.chunk.js",
-    "static/css/main.6a0334d5.chunk.css",
+    "static/css/main.258a1f95.chunk.css",
     "static/js/main.d115a7a5.chunk.js"
   ]
 }
