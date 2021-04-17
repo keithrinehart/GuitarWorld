@@ -53,11 +53,11 @@ function App() {
           <ScrollToTop>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/gibson/" component={Gibson} />
-              <Route exact path="/fender/" component={Fender} />
-              <Route exact path="/epiphone/" component={Epiphone} />
-              <Route exact path="/jackson/" component={Jackson} />
-              <Route exact path="/ibanez/" component={Ibanez} />
+              <Route path="/gibson/" component={Gibson} />
+              <Route path="/fender/" component={Fender} />
+              <Route path="/epiphone/" component={Epiphone} />
+              <Route path="/jackson/" component={Jackson} />
+              <Route path="/ibanez/" component={Ibanez} />
               <Route component={Four} />
             </Switch>
           </ScrollToTop>
