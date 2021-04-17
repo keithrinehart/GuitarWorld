@@ -8,6 +8,7 @@ import Epiphone from "./pages/epiphone";
 import Jackson from "./pages/jackson";
 import Ibanez from "./pages/ibanez";
 import Four from "./pages/four";
+import { render } from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./components/ScrollBehavior";
 import ScaleLoader from "react-spinners/ScaleLoader";
@@ -30,7 +31,7 @@ const loaderCSS = css`
   }
 `;
 
-function App() {
+const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -58,13 +59,14 @@ function App() {
               <Route path="/epiphone/" component={Epiphone} />
               <Route path="/jackson/" component={Jackson} />
               <Route path="/ibanez/" component={Ibanez} />
-              {/*<Route component={Four} />*/}
+              <Route component={Four} />
             </Switch>
           </ScrollToTop>
         </BrowserRouter>
       )}
     </div>
   );
-}
+};
 
 export default App;
+render(<App />, document.getElementById("root"));
