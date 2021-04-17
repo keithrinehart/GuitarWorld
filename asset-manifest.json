@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GuitarWorld/static/css/main.433f1dd5.chunk.css",
-    "main.js": "/GuitarWorld/static/js/main.3d991928.chunk.js",
-    "main.js.map": "/GuitarWorld/static/js/main.3d991928.chunk.js.map",
+    "main.js": "/GuitarWorld/static/js/main.f174a673.chunk.js",
+    "main.js.map": "/GuitarWorld/static/js/main.f174a673.chunk.js.map",
     "runtime-main.js": "/GuitarWorld/static/js/runtime-main.f0bddeb5.js",
     "runtime-main.js.map": "/GuitarWorld/static/js/runtime-main.f0bddeb5.js.map",
-    "static/js/2.85d3e32e.chunk.js": "/GuitarWorld/static/js/2.85d3e32e.chunk.js",
-    "static/js/2.85d3e32e.chunk.js.map": "/GuitarWorld/static/js/2.85d3e32e.chunk.js.map",
+    "static/js/2.b0cf917c.chunk.js": "/GuitarWorld/static/js/2.b0cf917c.chunk.js",
+    "static/js/2.b0cf917c.chunk.js.map": "/GuitarWorld/static/js/2.b0cf917c.chunk.js.map",
     "index.html": "/GuitarWorld/index.html",
     "static/css/main.433f1dd5.chunk.css.map": "/GuitarWorld/static/css/main.433f1dd5.chunk.css.map",
-    "static/js/2.85d3e32e.chunk.js.LICENSE.txt": "/GuitarWorld/static/js/2.85d3e32e.chunk.js.LICENSE.txt",
+    "static/js/2.b0cf917c.chunk.js.LICENSE.txt": "/GuitarWorld/static/js/2.b0cf917c.chunk.js.LICENSE.txt",
     "static/media/404.css": "/GuitarWorld/static/media/404.ffcd0063.jpg",
     "static/media/section2.css": "/GuitarWorld/static/media/gibson-logo.9f02632d.png",
     "static/media/section8.css": "/GuitarWorld/static/media/Jackson-logo.85f0f2ce.png",
@@ -56,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f0bddeb5.js",
-    "static/js/2.85d3e32e.chunk.js",
+    "static/js/2.b0cf917c.chunk.js",
     "static/css/main.433f1dd5.chunk.css",
-    "static/js/main.3d991928.chunk.js"
+    "static/js/main.f174a673.chunk.js"
   ]
 }
