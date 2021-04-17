@@ -58,7 +58,7 @@ function App() {
               <Route path="/epiphone/" component={Epiphone} />
               <Route path="/jackson/" component={Jackson} />
               <Route path="/ibanez/" component={Ibanez} />
-              <Route component={Four} />
+              {/*<Route component={Four} />*/}
             </Switch>
           </ScrollToTop>
         </BrowserRouter>
