@@ -52,13 +52,13 @@ function App() {
         <BrowserRouter>
           <ScrollToTop>
             <Switch>
-              <Route exact path="/GuitarWorld" component={Home} />
+              <Route exact path="/" component={Home} />
               <Route path="/gibson/" component={Gibson} />
               <Route path="/fender/" component={Fender} />
               <Route path="/epiphone/" component={Epiphone} />
               <Route path="/jackson/" component={Jackson} />
               <Route path="/ibanez/" component={Ibanez} />
-              {/*<Route component={Four} />*/}
+              <Route component={Four} />
             </Switch>
           </ScrollToTop>
         </BrowserRouter>

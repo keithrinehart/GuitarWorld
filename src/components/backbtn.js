@@ -5,7 +5,7 @@ import "../css/gibson.css";
 function backbtn() {
   return (
     <div>
-      <Link to="/" style={{ textDecoration: "none" }}>
+      <Link to="/GuitarWorld" style={{ textDecoration: "none" }}>
         <button className="gibson-back-btn">Back</button>
       </Link>
     </div>
