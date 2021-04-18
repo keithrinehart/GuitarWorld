@@ -7,7 +7,7 @@ function gibnav() {
     <div id="fennav" className="fen-home-nav-wrap ">
       <div className="fen-nav-string"></div>
       {/*Search*/}
-      <Link to="/">
+      <Link to="/GuitarWorld/">
         <div className="fen-swrap fen-wrap">
           <p className="fen-slink homelinks">
             <i className="fas fa-home"></i>

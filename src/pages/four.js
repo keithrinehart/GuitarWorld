@@ -11,7 +11,7 @@ function four() {
         on that guitar
       </p>
       <h3 className="four-h3">Sorry. Click the button to return home</h3>
-      <Link to="/">
+      <Link to="/GuitarWorld/">
         <button className="four-btn">Return Home</button>
       </Link>
     </div>

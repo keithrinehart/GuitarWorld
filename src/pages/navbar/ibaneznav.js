@@ -7,7 +7,7 @@ function ibaneznav() {
     <div id="ibaneznav" className="ibanez-home-nav-wrap ">
       <div className="ibanez-nav-string"></div>
       {/*Search*/}
-      <Link to="/">
+      <Link to="/GuitarWorld/">
         <div className="ibanez-swrap ibanez-wrap">
           <p className="ibanez-slink homelinks">
             <i className="fas fa-home"></i>

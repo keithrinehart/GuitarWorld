@@ -7,7 +7,7 @@ function jacknav() {
     <div id="jacknav" className="jack-home-nav-wrap ">
       <div className="jack-nav-string"></div>
       {/*Search*/}
-      <Link to="/">
+      <Link to="/GuitarWorld/">
         <div className="jack-swrap jack-wrap">
           <p className="jack-slink homelinks">
             <i className="fas fa-home"></i>

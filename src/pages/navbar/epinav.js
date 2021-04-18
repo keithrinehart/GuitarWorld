@@ -7,7 +7,7 @@ function epinav() {
     <div id="epinav" className="epi-home-nav-wrap ">
       <div className="epi-nav-string"></div>
       {/*Search*/}
-      <Link to="/">
+      <Link to="/GuitarWorld/">
         <div className="epi-swrap epi-wrap">
           <p className="epi-slink homelinks">
             <i className="fas fa-home"></i>
