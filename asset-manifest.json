@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GuitarWorld/static/css/main.258a1f95.chunk.css",
-    "main.js": "/GuitarWorld/static/js/main.463e293f.chunk.js",
-    "main.js.map": "/GuitarWorld/static/js/main.463e293f.chunk.js.map",
+    "main.js": "/GuitarWorld/static/js/main.4813a5f6.chunk.js",
+    "main.js.map": "/GuitarWorld/static/js/main.4813a5f6.chunk.js.map",
     "runtime-main.js": "/GuitarWorld/static/js/runtime-main.f0bddeb5.js",
     "runtime-main.js.map": "/GuitarWorld/static/js/runtime-main.f0bddeb5.js.map",
     "static/js/2.b0cf917c.chunk.js": "/GuitarWorld/static/js/2.b0cf917c.chunk.js",
@@ -58,6 +58,6 @@
     "static/js/runtime-main.f0bddeb5.js",
     "static/js/2.b0cf917c.chunk.js",
     "static/css/main.258a1f95.chunk.css",
-    "static/js/main.463e293f.chunk.js"
+    "static/js/main.4813a5f6.chunk.js"
   ]
 }
