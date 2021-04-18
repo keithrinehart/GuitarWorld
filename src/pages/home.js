@@ -25,7 +25,7 @@ function home() {
         <div id="home" className="header-p-wrap">
           <p className="header-p">A Home for Guitars</p>
           <p className="header-p-2">
-            A Home For Guitars is a small project i chose to display some of my
+            A Home For Guitars is a small project I chose to display some of my
             styling skill sets with CSS and JS. A fully routed react application
             including responsiveness to navigate through at any point while
             going through the site. I am proud to present... GuitarsWorld!
